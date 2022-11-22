@@ -5,7 +5,7 @@
       <h4>{{ 원룸들[누른거].title }}</h4>
       <p>{{ 원룸들[누른거].content }}</p>
       <input v-model="month">
-      <p> {{ month }}개월 선택함 : {{ 원룸들[누른거].price * month }}</p>
+      <p>{{ month }}개월 선택함 : {{ 원룸들[누른거].price * month }}</p>
       <button @click="$emit('closeModal')">닫기</button>
     </div>
   </div>
